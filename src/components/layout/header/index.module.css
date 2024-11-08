@@ -1,0 +1,123 @@
+.background .control {
+  display: flex;
+  gap: 25px;
+}
+.background .control .designSuccess {
+  display: flex;
+  flex-direction: column;
+  padding: 41px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  gap: 30px;
+}
+.background .control .designSuccess h1 {
+  font-size: 30px;
+  width: 354px;
+}
+.background .control .designSuccess p {
+  width: 300px;
+  line-height: 24px;
+}
+.background .control .designSuccess img {
+  width: 225px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background .control .controlTwoSide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.background .control .controlTwoSide .twoSide {
+  background-color: #e8e8e8;
+  padding: 77px 21px;
+  border-radius: 10px;
+}
+.background .control .controlTwoSide .twoSideImage img {
+  border-radius: 10px;
+}
+.background .control .controlThreeSide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.background .control .controlThreeSide .threeSide {
+  background-color: #e8e8e8;
+  padding: 5px;
+  position: relative;
+  border-radius: 10px;
+}
+.background .control .controlThreeSide .threeSide img {
+  padding: 5px;
+}
+.background .control .controlThreeSide .threeSide h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.background .control .controlThreeSide .clockThreeSide {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 205px;
+}
+.background .control .controlThreeSide .clockThreeSide h1 {
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+.background .control .controlThreeSide .clockThreeSide h2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.background .control .menuSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 41px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  gap: 30px;
+  width: 100%;
+}
+.background .control .menuSide img {
+  width: 10%;
+}
+
+@media (max-width: 498px) {
+  .background .control {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .control .designSuccess h1 {
+    width: 100%;
+    font-size: 22px;
+  }
+  .background .control .designSuccess p {
+    width: 100%;
+  }
+  .background .control .controlTwoSide .twoSide {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 21px;
+  }
+  .background .control .controlTwoSide .twoSideImage img {
+    width: 100%;
+  }
+  .background .control .controlThreeSide .threeSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .background .control .controlThreeSide .clockThreeSide {
+    height: auto;
+    gap: 90px;
+  }
+}/*# sourceMappingURL=index.module.css.map */
