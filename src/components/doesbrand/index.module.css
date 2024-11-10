@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-top: 25px;
+}
+.background .control {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 26px;
+}
+.background .control .leftSide {
+  width: 898px;
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  color: white;
+  padding: 65px 40px;
+}
+.background .control .leftSide .serviceClose {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.background .control .leftSide h2 {
+  font-size: 18px;
+}
+.background .control .leftSide h1 {
+  line-height: 25px;
+  font-size: 18px;
+}
+.background .control .rightSide {
+  width: 436px;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  color: white;
+  padding: 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+.background .control .rightSide h2 {
+  line-height: 95px;
+  font-size: 45px;
+  width: 300px;
+}
+
+@media (max-width: 496px) {
+  .background .control {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .control .leftSide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .background .control .leftSide .serviceClose h2 {
+    font-size: 14px;
+  }
+  .background .control .leftSide h2 {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .background .control .leftSide h1 {
+    line-height: normal;
+    font-size: 16px;
+  }
+  .background .control .rightSide {
+    width: 100%;
+  }
+  .background .control .rightSide h2 {
+    line-height: normal;
+    font-size: 24px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.module.css.map */

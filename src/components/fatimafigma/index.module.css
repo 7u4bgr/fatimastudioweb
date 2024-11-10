@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background .control {
+  display: flex;
+  padding-top: 25px;
+  gap: 25px;
+}
+.background .control img {
+  border-radius: 10px;
+  width: 100%;
+}
+.background .control .figmaPhoto {
+  background-color: #d7ffd0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 17px;
+  border-radius: 10px;
+}
+
+@media (max-width: 498px) {
+  .background .control {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .control .figmaPhoto img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  margin-top: 25px;
+  background-color: #000000;
+  padding: 45px 36px;
+  border-radius: 10px;
+}
+.background .control {
+  display: flex;
+}
+.background .control .leftSide {
+  width: 30%;
+  position: relative;
+}
+.background .control .leftSide h2 {
+  position: absolute;
+  rotate: -90deg;
+  top: 22%;
+  right: -15%;
+  transform: translate(-22%, 15%);
+  color: rgb(255, 255, 255);
+  font-size: 92px;
+}
+.background .control .rightSide {
+  width: 70%;
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+.background .control .rightSide h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .background {
+    padding: 25px 20px;
+  }
+  .background .control {
+    flex-direction: column;
+    align-items: center;
+  }
+  .background .control .leftSide {
+    width: 100%;
+  }
+  .background .control .leftSide h2 {
+    position: relative;
+    rotate: 0deg;
+    transform: none;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+  .background .control .rightSide {
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .background .control .rightSide h2 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 498px) {
+  .background {
+    padding: 20px 15px;
+  }
+  .background .control {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  .background .control .leftSide {
+    width: 100%;
+  }
+  .background .control .leftSide h2 {
+    font-size: 32px;
+  }
+  .background .control .rightSide {
+    width: 100%;
+    padding-top: 15px;
+    gap: 10px;
+  }
+  .background .control .rightSide .rightOne {
+    width: 100%;
+  }
+  .background .control .rightSide .rightOne hr {
+    width: 100%;
+  }
+  .background .control .rightSide .rightOne h2 {
+    text-align: start;
+    font-size: 16px;
+  }
+  .background .control .rightSide .rightTwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .background .control .rightSide .rightTwo hr {
+    width: 100%;
+  }
+  .background .control .rightSide .rightTwo h2 {
+    text-align: start;
+    font-size: 16px;
+  }
+  .background .control .rightSide .rightThree {
+    width: 100%;
+  }
+  .background .control .rightSide .rightThree hr {
+    width: 100%;
+  }
+  .background .control .rightSide .rightThree h2 {
+    text-align: start;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

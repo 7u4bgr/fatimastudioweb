@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  margin-top: 25px;
+  background-color: #000000;
+  padding: 45px 36px;
+  border-radius: 10px;
+ 
+  .control {
+    display: flex;
+
+    .leftSide {
+      width: 30%;
+      position: relative;
+      h2 {
+        position: absolute;
+        rotate: -90deg;
+        top: 22%;
+        right: -15%;
+        transform: translate(-22%,15%);
+        color: rgb(255, 255, 255);
+        font-size: 92px;
+      }
+    }
+    .rightSide {
+      width: 70%;
+      padding-top: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      width: 100%;
+      h2 {
+        color: white;
+        font-size: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .background {
+    padding: 25px 20px;
+
+    .control {
+      flex-direction: column;
+      align-items: center;
+
+      .leftSide {
+        width: 100%;
+        h2 {
+          position: relative;
+          rotate: 0deg;
+          transform: none;
+          top: 0;
+          right: 0;
+          font-size: 36px;
+          text-align: center;
+        }
+      }
+
+      .rightSide {
+        width: 100%;
+        padding-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+        h2 {
+          font-size: 18px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 498px) {
+  .background {
+    padding: 20px 15px;
+
+    .control {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px;
+      .leftSide {
+        width: 100%;
+        h2 {
+          font-size: 32px;
+        }
+      }
+
+      .rightSide {
+        width: 100%;
+        padding-top: 15px;
+        gap: 10px;
+
+        .rightOne{
+          width: 100%;
+
+          hr{
+            width: 100%;
+          }
+          h2 {
+            text-align: start;
+            font-size: 16px;
+          }
+        }
+        .rightTwo{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: flex-start;
+          hr{
+            width: 100%;
+          }
+          h2 {
+            text-align: start;
+            font-size: 16px;
+          }
+        }
+        .rightThree{
+          width: 100%;
+
+          hr{
+            width: 100%;
+          }
+          h2 {
+            text-align: start;
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+  }
+}
