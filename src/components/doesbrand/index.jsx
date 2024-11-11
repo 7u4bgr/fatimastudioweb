@@ -21,7 +21,7 @@ const DoesBrand = () => {
               ⓧ Your customer service experience leaves a lot to be desired
             </h2>
             <h2>
-              ⓧ Your internal systems — or lack of systems — are working against
+              ⓧ Your internal systems — or lack of systems — are working againstt
               you
             </h2>
           </div>
