@@ -3,6 +3,7 @@ import Build from '../../components/build';
 import DoesBrand from '../../components/doesbrand';
 import Capabilities from '../../components/capabilities';
 import FatimaFigma from '../../components/fatimafigma';
+import Trustly from '../../components/trustly';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <DoesBrand/>
       <Capabilities/>
       <FatimaFigma/>
+      <Trustly/>
     </div>
     )
 };

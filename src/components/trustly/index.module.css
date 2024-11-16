@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background .control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.background .control .leftSide {
+  border-radius: 10px;
+  background-color: #1B1B1B;
+  padding: 60px 41px;
+  gap: 30px;
+  width: 48%;
+}
+.background .control .leftSide p {
+  margin-top: 36px;
+  color: white;
+  line-height: 47px;
+}
+.background .control .rightSide {
+  width: 48%;
+}
+.background .control .rightSide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 498px) {
+  .background .control {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .background .control .leftSide {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .background .control .leftSide img {
+    width: 100%;
+  }
+  .background .control .leftSide p {
+    line-height: 26px;
+    font-size: 10px;
+  }
+  .background .control .rightSide {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.module.css.map */
