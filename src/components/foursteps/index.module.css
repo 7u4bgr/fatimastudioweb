@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background .control .headerControl {
+  background-color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.background .control .headerControl h2 {
+  font-size: 32px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.background .control .mappingInfo {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.background .control .mappingInfo .controlMap {
+  background-color: #e8e8e8;
+  padding: 41px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .control .mappingInfo .controlMap h1 {
+  font-weight: 600;
+}
+.background .control .mappingInfo .controlMap h2 {
+  width: 200px;
+  line-height: 25px;
+}
+
+@media (max-width: 498px) {
+  .background .control .headerControl h2 {
+    font-size: 16px;
+  }
+  .background .control .mappingInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .control .mappingInfo .controlMap h2 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.module.css.map */
