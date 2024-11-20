@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  margin-top: 25px;
+  background-color: #d7ffd0;
+  border-radius: 5px;
+  padding: 41px;
+  .controlSide {
+    display: flex;
+    justify-content: space-between;
+    .leftSide {
+        width: 30%;
+      h2 {
+        font-size: 45px;
+        line-height: 70px;
+      }
+    }
+    .rightSide{
+        width: 60%;
+        .topRight{
+            display: flex;
+            flex-direction: column;
+            h2{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 22px;
+                line-height: 40px;
+            }
+        }
+        .inputs{
+            padding-top: 41px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 25px;
+            input{
+                width: 45%;
+                background-color: black;
+                color: white;
+                border: none;
+                outline: none;
+                padding: 17px 21px;
+                border-radius:10px;
+            }
+            input::placeholder{
+                color: white;
+                font-family: "Manrope", sans-serif !important;
+            }
+            textarea{
+                width: 100%; 
+                 background-color: black;
+                color: white;
+                border: none;
+                outline: none;
+                padding: 17px 21px;
+                font-family: "Manrope", sans-serif !important;
+                border-radius:10px;
+            }
+            button{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                background-color: transparent;
+                font-family: "Manrope", sans-serif !important;
+                border: none;
+                span{
+                    border-radius: 50%;
+                    padding: 4px 8px;
+                    border: 1px solid black;
+                }
+            }
+        }
+    }
+  }
+}
+@media(max-width:498px){
+    .background{
+        .controlSide{
+            display: flex;
+            flex-direction: column;
+            .leftSide{
+                width: 100%;
+                h2{
+                    font-size: 40px;
+                    line-height: normal;
+                }
+            }
+            .rightSide{
+                width: 100%;
+                .topRight{
+                    p{
+                       line-height: normal;
+                       font-size: 18px;
+                    }
+                    h2{
+                        font-size: 18px;
+                    }
+                }
+                .inputs{
+                    input{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

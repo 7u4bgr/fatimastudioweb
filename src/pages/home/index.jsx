@@ -6,6 +6,7 @@ import FatimaFigma from '../../components/fatimafigma';
 import Trustly from '../../components/trustly';
 import Projects from '../../components/projects';
 import FourSteps from '../../components/foursteps';
+import Contact from '../../components/contact';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Trustly/>
       <Projects/>
       <FourSteps/>
+      <Contact/>
     </div>
     )
 };

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  margin-top: 25px;
+}
+.background .control {
+  display: flex;
+  justify-content: space-between;
+}
+.background .control .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 27px 41px;
+  width: 30%;
+}
+.background .control .left h2 {
+  font-size: 14px;
+}
+
+@media (max-width: 498px) {
+  .background .control {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .background .control .left {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.module.css.map */

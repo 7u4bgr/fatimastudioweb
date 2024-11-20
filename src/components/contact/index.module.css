@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  margin-top: 25px;
+  background-color: #d7ffd0;
+  border-radius: 5px;
+  padding: 41px;
+}
+.background .controlSide {
+  display: flex;
+  justify-content: space-between;
+}
+.background .controlSide .leftSide {
+  width: 30%;
+}
+.background .controlSide .leftSide h2 {
+  font-size: 45px;
+  line-height: 70px;
+}
+.background .controlSide .rightSide {
+  width: 60%;
+}
+.background .controlSide .rightSide .topRight {
+  display: flex;
+  flex-direction: column;
+}
+.background .controlSide .rightSide .topRight h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.background .controlSide .rightSide .topRight p {
+  font-size: 22px;
+  line-height: 40px;
+}
+.background .controlSide .rightSide .inputs {
+  padding-top: 41px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+}
+.background .controlSide .rightSide .inputs input {
+  width: 45%;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 17px 21px;
+  border-radius: 10px;
+}
+.background .controlSide .rightSide .inputs input::-moz-placeholder {
+  color: white;
+  font-family: "Manrope", sans-serif !important;
+}
+.background .controlSide .rightSide .inputs input::placeholder {
+  color: white;
+  font-family: "Manrope", sans-serif !important;
+}
+.background .controlSide .rightSide .inputs textarea {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 17px 21px;
+  font-family: "Manrope", sans-serif !important;
+  border-radius: 10px;
+}
+.background .controlSide .rightSide .inputs button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: transparent;
+  font-family: "Manrope", sans-serif !important;
+  border: none;
+}
+.background .controlSide .rightSide .inputs button span {
+  border-radius: 50%;
+  padding: 4px 8px;
+  border: 1px solid black;
+}
+
+@media (max-width: 498px) {
+  .background .controlSide {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .controlSide .leftSide {
+    width: 100%;
+  }
+  .background .controlSide .leftSide h2 {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .background .controlSide .rightSide {
+    width: 100%;
+  }
+  .background .controlSide .rightSide .topRight p {
+    line-height: normal;
+    font-size: 18px;
+  }
+  .background .controlSide .rightSide .topRight h2 {
+    font-size: 18px;
+  }
+  .background .controlSide .rightSide .inputs input {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.module.css.map */
