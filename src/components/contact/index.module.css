@@ -109,4 +109,10 @@
   .background .controlSide .rightSide .inputs input {
     width: 100%;
   }
+  .background .controlSide .rightSide .inputs button {
+    color: black;
+  }
+  .background .controlSide .rightSide .inputs button span {
+    color: black;
+  }
 }/*# sourceMappingURL=index.module.css.map */

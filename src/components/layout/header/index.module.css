@@ -120,4 +120,7 @@
     height: auto;
     gap: 90px;
   }
+  .background .control .menuSide img {
+    width: 10%;
+  }
 }/*# sourceMappingURL=index.module.css.map */
