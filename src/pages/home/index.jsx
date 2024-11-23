@@ -7,6 +7,7 @@ import Trustly from '../../components/trustly';
 import Projects from '../../components/projects';
 import FourSteps from '../../components/foursteps';
 import Contact from '../../components/contact';
+import CommentsPages from '../../components/comments';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <DoesBrand/>
       <Capabilities/>
       <FatimaFigma/>
+      <CommentsPages/>
       <Trustly/>
       <Projects/>
       <FourSteps/>

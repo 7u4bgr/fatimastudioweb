@@ -78,11 +78,17 @@ const Projects = () => {
   return (
     <div className={styles.background}>
       <div className={styles.control}>
+        <div className={styles.projectTeil}>
+          <h1>Project Schedule</h1>
+          <h2>
+            My working experience and career journey <span>-></span>
+          </h2>
+        </div>
         <Swiper
           modules={[Autoplay]}
           className={styles.price}
           spaceBetween={50}
-          slidesPerView={3}
+          slidesPerView={2.5}
           autoplay={{
             delay: 2000,
             disableOnInteraction: false,
@@ -98,18 +104,20 @@ const Projects = () => {
             },
             992: {
               spaceBetween: 50,
-              slidesPerView: 3,
+              slidesPerView: 2.5,
             },
           }}
         >
           {data.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className={styles.border}>
-                <Link target="_blank" to={item.link}>
-                  <img src={item.image} alt="" />
-                  <h2>{item.title}</h2>
-                  <h3>{item.country}</h3>
-                </Link>
+              <div className={styles.controlSwiper}>
+                <div className={styles.border}>
+                  <Link target="_blank" to={item.link}>
+                    <img src={item.image} alt="" />
+                    <h2>{item.title}</h2>
+                    <h3>{item.country}</h3>
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           ))}

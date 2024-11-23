@@ -7,9 +7,32 @@
 .background {
   margin-top: 25px;
 }
+.background .control {
+  display: flex;
+  gap: 30px;
+}
+.background .control .projectTeil {
+  width: 100%;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  padding: 121px 28px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.background .control .projectTeil h1 {
+  font-size: 32px;
+}
+.background .control .projectTeil h2 {
+  width: 200px;
+  line-height: 25px;
+  font-size: 18px;
+}
 .background .control .price .border {
   cursor: pointer;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   border-radius: 5px;
   padding: 41px 28px;
   margin-bottom: 40px;
@@ -31,4 +54,18 @@
   text-decoration: none;
   color: black;
   font-size: 12px;
+}
+
+@media (max-width: 498px) {
+  .background .control {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .background .control .projectTeil {
+    margin-bottom: 0;
+  }
+  .background .control .price {
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.module.css.map */

@@ -13,10 +13,9 @@ const Build = () => {
         <div className={styles.rightSide}>
           <h2>
             For the last 2 years, I’ve played a lot of roles. From multiple
-            career paths in Johannesburg to award-winning design studio owner in
-            Chilliwack, I’ve lived a full life. And in that time, I’ve learned
-            one main lesson: when your business is efficient, you can do more
-            impactful work.  
+            career paths in Azerbaijan design studio owner in I’ve lived a full
+            life. And in that time, I’ve learned one main lesson: when your
+            business is efficient, you can do more impactful work. 
           </h2>
           <h2>
             And whether that “impactful work” is being a more present parent,
