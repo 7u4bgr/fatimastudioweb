@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 import TrustPhoto from "../../assets/images/Container.png";
-import ProjectPhoto from '../../assets/images/image.png'
+import ProjectPhoto from '../../assets/images/brendt.png'
 const Trustly = () => {
   return (
     <div className={styles.background}>

@@ -5,6 +5,7 @@ import FatimaPp from "../../../assets/images/668f4236fa60301a6de3209c_JamieWinde
 import VectorText from "../../../assets/images/Vector.png";
 import BehancePhoto from "../../../assets/images/image 11.png";
 import LinkedinPhotoo from "../../../assets/images/Img.png";
+import AzerbaijanFlag from '../../../assets/images/azerbaijan.png'
 const Header = () => {
   const [time, setTime] = useState(new Date());
   useEffect(() => {
@@ -28,7 +29,7 @@ const Header = () => {
           <div className={styles.twoSide}>
             <h1>EST.2002</h1>
             <p>Currently live in</p>
-            <h2>Azerbaijan</h2>
+            <h2>Azerbaijan <img src={AzerbaijanFlag} alt="" /></h2>
           </div>
           <div className={styles.twoSideImage}>
             <img src={FatimaPp} alt="" />

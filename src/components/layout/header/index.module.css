@@ -19,8 +19,8 @@
   line-height: 24px;
 }
 .background .control .designSuccess img {
-  width: 225px;
-  height: 70px;
+  width: 250px;
+  height: 120px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -33,6 +33,12 @@
   background-color: #e8e8e8;
   padding: 77px 21px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .control .controlTwoSide .twoSide p {
+  font-size: 12px;
 }
 .background .control .controlTwoSide .twoSideImage img {
   border-radius: 10px;
@@ -44,7 +50,7 @@
 }
 .background .control .controlThreeSide .threeSide {
   background-color: #e8e8e8;
-  padding: 5px;
+  padding: 13px;
   position: relative;
   border-radius: 10px;
 }

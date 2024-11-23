@@ -19,8 +19,7 @@ const Capabilities = () => {
             <hr />
             <h2>Art Direction</h2>
             <hr />
-            <h2>Domains & Hosting</h2>
-            <hr />
+       
           </div>
           <div className={styles.rightTwo}>
             <h2>Website Design</h2>
@@ -29,15 +28,13 @@ const Capabilities = () => {
             <hr />
             <h2>Social Media Strategy</h2>
             <hr />
-            <h2>Photoshoot Art Direction</h2>
-            <hr />
+         
             <h2>Creative Direction</h2>
             <hr />
-            <h2>Print + Digital Collateral</h2>
-            <hr />
+          
           </div>
           <div className={styles.rightThree}>
-            <h2>Content Creation</h2>
+            <h2>Art Direction</h2>
             <hr />
           </div>
         </div>

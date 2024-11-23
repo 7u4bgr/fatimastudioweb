@@ -6,51 +6,73 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import ProjectOne1 from "../../assets/images/projekt1.png"
-import ProjectOne2 from "../../assets/images/projekt2.png"
-import ProjectOne3 from "../../assets/images/projekt3.png"
-import ProjectOne4 from "../../assets/images/projekt4.png"
-import ProjectOne5 from "../../assets/images/projekt5.png"
-import ProjectOne6 from "../../assets/images/projekt6.png"
-import ProjectOne7 from "../../assets/images/projekt7.png"
+import ProjectOne1 from "../../assets/images/saytaz.jpg";
+import ProjectOne2 from "../../assets/images/azerholiday.jpg";
+import ProjectOne3 from "../../assets/images/skalioz.png";
+import ProjectOne4 from "../../assets/images/onlineshop.png";
+import ProjectOne5 from "../../assets/images/perfume.png";
+import ProjectOne6 from "../../assets/images/binary.png";
+import ProjectOne7 from "../../assets/images/interview.png";
+import ProjectOne8 from "../../assets/images/shoppy.png";
+import ProjectOne9 from "../../assets/images/rashadmirza.png";
+import { Link } from "react-router-dom";
 const Projects = () => {
   const data = useMemo(() => [
     {
       id: 1,
+      link: "https://sayt.az/",
       image: `${ProjectOne1}`,
-      title: "Where it began — Packing boxes",
-      country: "VastraTech • Logistics Coordinator (2008 - 2010)",
+      title: "Ureb.com, Site.az, Sayt.az ",
+      country: "Web Designer and Graphic Designer",
     },
     {
       id: 2,
       image: `${ProjectOne2}`,
-      title: "Youthful Learning + Growth",
-      country: "VastraTech • Procurement & Logistics Manager (2010 - 2014)",
+      title: "Azeholidays.com",
+      country: "Web Designer",
     },
     {
       id: 3,
       image: `${ProjectOne3}`,
-      title: "MY first taste of Entrepreneurship",
-      country: "Think Africa • Founder & Director (2014 - 2015)",
+      title: "FIZIOTERAPEVT YUSIF ZEYNALOV",
+      country: "Web Designer",
     },
     {
       id: 4,
       image: `${ProjectOne4}`,
-      title: "Working with designers — loving design",
-      country: "Design Partnership • Traffic Manager (2016 - 2017)",
+      title: "WHATSHOP ",
+      country: "Mobile Designer",
+    },
+    {
+      id: 5,
+      image: `${ProjectOne5}`,
+      title: "LAPARFUMEGALLERY.COM",
+      country: "Web Designer",
     },
 
     {
       id: 6,
       image: `${ProjectOne6}`,
-      title: "New company expansion — Back to ops",
-      country: "FYBOTECH • Operations Manager (2017 - 2018)",
+      title: "BINARYSCHOOL.AZ",
+      country: "Graphic Designer",
     },
     {
       id: 7,
       image: `${ProjectOne7}`,
-      title: "Going solo — working with startups",
-      country: "WellFit Lifestyle • Founder (2016 - 2017)",
+      title: "INTERVIEWER.AZ",
+      country: "Graphic Designer and Web Designer",
+    },
+    {
+      id: 8,
+      image: `${ProjectOne8}`,
+      title: "SHOPPY.AZ",
+      country: "Graphic Designer and Web Designer",
+    },
+    {
+      id: 9,
+      image: `${ProjectOne9}`,
+      title: "RASHADMIRZA.COM",
+      country: "Web Designer",
     },
   ]);
   return (
@@ -65,7 +87,6 @@ const Projects = () => {
             delay: 2000,
             disableOnInteraction: false,
           }}
-
           breakpoints={{
             0: {
               spaceBetween: 24,
@@ -84,9 +105,11 @@ const Projects = () => {
           {data.map((item) => (
             <SwiperSlide key={item.id}>
               <div className={styles.border}>
-                <img src={item.image} alt="" />
-                <h2>{item.title}</h2>
-                <h3>{item.country}</h3>
+                <Link target="_blank" to={item.link}>
+                  <img src={item.image} alt="" />
+                  <h2>{item.title}</h2>
+                  <h3>{item.country}</h3>
+                </Link>
               </div>
             </SwiperSlide>
           ))}
