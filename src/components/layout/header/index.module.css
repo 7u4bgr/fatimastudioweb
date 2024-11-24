@@ -13,6 +13,7 @@
 .background .control .designSuccess h1 {
   font-size: 30px;
   width: 354px;
+  line-height: 45px;
 }
 .background .control .designSuccess p {
   width: 300px;
@@ -92,8 +93,8 @@
   gap: 30px;
   width: 100%;
 }
-.background .control .menuSide img {
-  width: 10%;
+.background .control .menuSide a img {
+  width: 100%;
 }
 
 @media (max-width: 498px) {
@@ -104,6 +105,7 @@
   .background .control .designSuccess h1 {
     width: 100%;
     font-size: 22px;
+    line-height: 35px;
   }
   .background .control .designSuccess p {
     width: 100%;
@@ -126,7 +128,7 @@
     height: auto;
     gap: 90px;
   }
-  .background .control .menuSide img {
+  .background .control .menuSide a img {
     width: 20px;
     height: 20px;
   }

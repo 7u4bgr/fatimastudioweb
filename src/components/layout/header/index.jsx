@@ -6,6 +6,8 @@ import VectorText from "../../../assets/images/Vector.png";
 import BehancePhoto from "../../../assets/images/image 11.png";
 import LinkedinPhotoo from "../../../assets/images/Img.png";
 import AzerbaijanFlag from '../../../assets/images/azerbaijan.png'
+import InstagramPhoto from '../../../assets/images/instagram.png'
+import { Link } from "react-router-dom";
 const Header = () => {
   const [time, setTime] = useState(new Date());
   useEffect(() => {
@@ -47,8 +49,15 @@ const Header = () => {
         </div>
         <div className={styles.menuSide}>
           <h2>MENU +</h2>
+          <Link target="_blank" to="https://www.instagram.com/fatimabrandlfe/profilecard/">
+          <img src={InstagramPhoto} alt="" />
+          </Link>
+          <Link target="_blank" to="https://www.behance.net/fatimabashirli">
           <img src={BehancePhoto} alt="" />
+          </Link>
+          <Link target="_blank" to="https://www.linkedin.com/in/fatima-bashirli-104348286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
           <img src={LinkedinPhotoo} alt="" />
+          </Link>
         </div>
       </div>
     </div>

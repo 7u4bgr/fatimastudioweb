@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
-import AuthPhoto from "../../assets/images/commentphoto.png";
+import AuthPhoto from "../../assets/images/asya.png";
 import { StarIcon } from "../../icons";
 const CommentsPages = () => {
   return (
@@ -19,7 +19,7 @@ const CommentsPages = () => {
           </div>
           <div className={styles.textAuth}>
             <img src={AuthPhoto} alt="" />
-            <h2>Chef Adrian M.</h2>
+            <h2>Asiya A.</h2>
           </div>
         </div>
         <div className={styles.rightSide}>
