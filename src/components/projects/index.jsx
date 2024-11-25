@@ -28,17 +28,20 @@ const Projects = () => {
     {
       id: 2,
       image: `${ProjectOne2}`,
+      link:"https://azeholidays.com/",
       title: "Azeholidays.com",
       country: "Web Designer",
     },
     {
       id: 3,
       image: `${ProjectOne3}`,
+      link:"https://www.figma.com/design/DafjmZrAmgKu164rzryY8Q/Shopping-mobile-App-WhatShop?node-id=0-1&node-type=canvas&t=JRTT02TRv64iyjLV-0",
       title: "FIZIOTERAPEVT YUSIF ZEYNALOV",
       country: "Web Designer",
     },
     {
       id: 4,
+      link: "https://www.figma.com/design/DafjmZrAmgKu164rzryY8Q/Shopping-mobile-App-WhatShop?node-id=0-1&node-type=canvas&t=JRTT02TRv64iyjLV-0",
       image: `${ProjectOne4}`,
       title: "WHATSHOP ",
       country: "Mobile Designer",
@@ -46,6 +49,7 @@ const Projects = () => {
     {
       id: 5,
       image: `${ProjectOne5}`,
+      link:"https://perfumenewwebsite.vercel.app/",
       title: "LAPARFUMEGALLERY.COM",
       country: "Web Designer",
     },
@@ -53,18 +57,21 @@ const Projects = () => {
     {
       id: 6,
       image: `${ProjectOne6}`,
+      link:"https://www.instagram.com/binaryschool.az?igsh=MTIyZ2t4NmM3cG44YQ==",
       title: "BINARYSCHOOL.AZ",
       country: "Graphic Designer",
     },
     {
       id: 7,
       image: `${ProjectOne7}`,
+      link:"https://www.figma.com/file/X49EfCJLGIOZzmnwWMyXFM?type=design",
       title: "INTERVIEWER.AZ",
       country: "Graphic Designer and Web Designer",
     },
     {
       id: 8,
       image: `${ProjectOne8}`,
+      link:"https://www.figma.com/file/oSO7tXZPhMUVg0GmrTHW3b?type=design",
       title: "SHOPPY.AZ",
       country: "Graphic Designer and Web Designer",
     },
@@ -72,6 +79,7 @@ const Projects = () => {
       id: 9,
       image: `${ProjectOne9}`,
       title: "RASHADMIRZA.COM",
+      link:"https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
       country: "Web Designer",
     },
   ]);
