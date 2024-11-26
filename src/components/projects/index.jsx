@@ -44,6 +44,34 @@ const Projects = () => {
       country: "Web Designer",
     },
     {
+      id: 10,
+      image: `${ProjectOne10}`,
+      title: "THANK YOU BUSINESS CARD",
+      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
+      country: "Graphic Designer",
+    },
+    {
+      id: 11,
+      image: `${ProjectOne11}`,
+      title: "COMPANY WEBSITE",
+      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
+      country: "Web Designer",
+    },
+    {
+      id: 12,
+      image: `${ProjectOne12}`,
+      title: "LUXE INSTAGRAM TEMPLATE",
+      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
+      country: "Graphic Designer",
+    },
+    {
+      id: 13,
+      image: `${ProjectOne13}`,
+      title: "HAYA COLLECTION BRAND BUSINESS CARD",
+      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
+      country: "Graphic Designer",
+    },
+    {
       id: 4,
       link: "https://www.figma.com/design/DafjmZrAmgKu164rzryY8Q/Shopping-mobile-App-WhatShop?node-id=0-1&node-type=canvas&t=JRTT02TRv64iyjLV-0",
       image: `${ProjectOne4}`,
@@ -86,34 +114,7 @@ const Projects = () => {
       link: "https://www.behance.net/fatimabashirli",
       country: "Web Designer",
     },
-    {
-      id: 10,
-      image: `${ProjectOne10}`,
-      title: "THANK YOU BUSINESS CARD",
-      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
-      country: "Graphic Designer",
-    },
-    {
-      id: 11,
-      image: `${ProjectOne11}`,
-      title: "COMPANY WEBSITE",
-      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
-      country: "Web Designer",
-    },
-    {
-      id: 12,
-      image: `${ProjectOne12}`,
-      title: "LUXE INSTAGRAM TEMPLATE",
-      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
-      country: "Graphic Designer",
-    },
-    {
-      id: 13,
-      image: `${ProjectOne13}`,
-      title: "HAYA COLLECTION BRAND BUSINESS CARD",
-      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
-      country: "Graphic Designer",
-    },
+    
   ]);
   return (
     <div className={styles.background}>
