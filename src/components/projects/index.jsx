@@ -47,28 +47,27 @@ const Projects = () => {
       id: 10,
       image: `${ProjectOne10}`,
       title: "THANK YOU BUSINESS CARD",
-      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
+    
       country: "Graphic Designer",
     },
     {
       id: 11,
       image: `${ProjectOne11}`,
       title: "COMPANY WEBSITE",
-      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
+
       country: "Web Designer",
     },
     {
       id: 12,
       image: `${ProjectOne12}`,
       title: "LUXE INSTAGRAM TEMPLATE",
-      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
-      country: "Graphic Designer",
+
+      country: "Graphic Designer and SMM",
     },
     {
       id: 13,
       image: `${ProjectOne13}`,
       title: "HAYA COLLECTION BRAND BUSINESS CARD",
-      link: "https://www.figma.com/file/hVgb6K7s66HR45BpAEGDpj?type=design",
       country: "Graphic Designer",
     },
     {
